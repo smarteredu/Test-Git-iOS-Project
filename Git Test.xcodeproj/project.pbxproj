@@ -21,6 +21,7 @@
 		959E6F4F1911133800EF5A40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959E6F311911133800EF5A40 /* UIKit.framework */; };
 		959E6F571911133800EF5A40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 959E6F551911133800EF5A40 /* InfoPlist.strings */; };
 		959E6F591911133800EF5A40 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 959E6F581911133800EF5A40 /* Git_TestTests.m */; };
+		959E6F641911968800EF5A40 /* SETest.m in Sources */ = {isa = PBXBuildFile; fileRef = 959E6F631911968800EF5A40 /* SETest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		959E6F541911133800EF5A40 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		959E6F561911133800EF5A40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		959E6F581911133800EF5A40 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		959E6F621911968800EF5A40 /* SETest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETest.h; sourceTree = "<group>"; };
+		959E6F631911968800EF5A40 /* SETest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				959E6F3F1911133800EF5A40 /* Main.storyboard */,
 				959E6F421911133800EF5A40 /* SEViewController.h */,
 				959E6F431911133800EF5A40 /* SEViewController.m */,
+				959E6F621911968800EF5A40 /* SETest.h */,
+				959E6F631911968800EF5A40 /* SETest.m */,
 				959E6F451911133800EF5A40 /* Images.xcassets */,
 				959E6F341911133800EF5A40 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				959E6F3E1911133800EF5A40 /* SEAppDelegate.m in Sources */,
 				959E6F441911133800EF5A40 /* SEViewController.m in Sources */,
 				959E6F3A1911133800EF5A40 /* main.m in Sources */,
+				959E6F641911968800EF5A40 /* SETest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
